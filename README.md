@@ -3,6 +3,8 @@ Carbone
 
 An improved minetest_game. Focuses on optimization, game balance, fun and intuitiveness.
 
+**Moved to Gitorious:** https://gitorious.com/calinou/carbone/
+
 
 License of source code
 ----------------------
