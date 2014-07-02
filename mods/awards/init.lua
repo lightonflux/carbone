@@ -14,6 +14,17 @@ end
 
 dofile(minetest.get_modpath("awards").."/api.lua")
 
+-- Moved repo
+awards.register_achievement("award_repomove",{
+	title = S("Carbone's git-Repository moved!"),
+	description = S("The Repository of the game moved to https://gitorious.org/calinou/carbone !"),
+	icon = "unknown.png",
+	trigger = {
+		type = "join",
+		target = 1
+	}
+})
+
 -- Light it up
 awards.register_achievement("award_lightitup",{
 	title = S("Light It Up"),
